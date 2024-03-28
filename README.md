@@ -1,6 +1,23 @@
 # Cloudflare-Grafana
 Grafana Dashboard that shows Cloudflare Overviews and Analytics from the RESTful API
 
+## Configuration Cloudflare
+The preferered authentication method is to use API Tokens.
+
+On your Cloudflare Profile go inside API Tokens menu.
+
+Create a new Token using the Read analytics and logs template: 
+![image](https://github.com/pokertour/Cloudflare-Grafana/assets/7757451/b51c9602-99e3-448c-9589-19e66497ff5a)
+![image](https://github.com/pokertour/Cloudflare-Grafana/assets/7757451/83524363-06e5-4b0f-98f1-b58220220b1e)
+
+Leave all the field by default. You can add a IP Filtering if you want and a TTL aswell.
+
+Continue to summary and you should have this permissions :
+![image](https://github.com/pokertour/Cloudflare-Grafana/assets/7757451/605b8099-f65c-406f-9893-1da1e48f05cc)
+
+Create the token and place it in the script on the setting : cloudflareapitoken
+
+
 ## Configuration Script
 Place the script where you want, there is no importance.
 
