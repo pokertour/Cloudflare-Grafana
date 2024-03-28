@@ -74,3 +74,6 @@ ID : 20682
 
 # Known Bug
 - The Geomap panel is not displaying informations. If you know how to do please add a pull request.
+
+# Planned Features
+- Possibility to have multizone
