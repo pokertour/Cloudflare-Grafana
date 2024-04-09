@@ -72,8 +72,5 @@ You must set the Query language to Flux.
 You can import the dashboard from Grafana website : https://grafana.com/grafana/dashboards/20682-cloudflare-analytics-and-overview/
 ID : 20682
 
-# Known Bug
-- The Geomap panel is not displaying informations. If you know how to do please add a pull request.
-
 # Planned Features
 - Possibility to have multizone
