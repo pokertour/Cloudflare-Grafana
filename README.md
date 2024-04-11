@@ -35,10 +35,10 @@ InfluxToken="YOURINFLUXTOKEN"
 
 # Endpoint URL for login action
 cloudflareauthmethod="TOKEN/APIKEY" #Choose Authentication method. Either TOKEN (single token with specific rights) or APIKEY (Global API KEY with Email)
-cloudflareapikey="YOURAPIKEY"
-cloudflarezone="YOURZONEID"
-cloudflareemail="YOUREMAIL"
-cloudflareapitoken="YOURTOKEN"
+cloudflareapikey="YOURAPIKEY" # Used in APIKEY Mode
+cloudflareemail="YOUREMAIL" # Used in APIKEY Mode
+cloudflarezone="YOURZONEID" # Used in both Mode
+cloudflareapitoken="YOURTOKEN" # Used in TOKEN Mode
 ```
 
 Once the changes are done, make the script executable with chmod:
